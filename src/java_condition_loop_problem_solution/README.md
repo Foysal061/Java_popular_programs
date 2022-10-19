@@ -1,14 +1,14 @@
-# Java_popular_programs
-# Pre-Requisites
+# java_condition_loop_problem_solution
+## Pre-Requisites
     Basic knowledge of Java
     java IDE
-# IDE used
+## IDE used
     Intelij IDEA
     Version: 2022.2.3
-# Solved Techniques
+## Solved Techniques
 used if-else/switch-case and for/while to solve these problems.
 
-# Problems & Solutions
+## Problems & Solutions
 ### 1. Write a program to check if inputted letter is small or capital.
 ##### Solution: https://github.com/Foysal061/Java_popular_programs/blob/main/src/java_condition_loop_problem_solution/DetectCaseOfLetter.java
 
@@ -38,7 +38,7 @@ used if-else/switch-case and for/while to solve these problems.
 ##### Solution: https://github.com/Foysal061/Java_popular_programs/blob/main/src/java_condition_loop_problem_solution/GuessTheGeneratedNumber.java
 
 
-### 3. Input 2 decimal numbers. Check if they are both same or different up to two decimal places. 
+### 3. Input 2 decimal numbers. Check if they are both same or different up to two decimal places.
 
     Input: 120.546 & 120.241
     Output: The numbers are not same.
