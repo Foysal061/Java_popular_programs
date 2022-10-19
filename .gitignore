@@ -2,3 +2,5 @@
 .idea
 gradle
 build
+out
+src/java_condition_loop_problem_solution/*.class
