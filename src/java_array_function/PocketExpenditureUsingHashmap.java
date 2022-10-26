@@ -28,7 +28,7 @@ public class PocketExpenditureUsingHashmap {
             int numberOfItems = sc.nextInt();
             sc.nextLine();
             if (numberOfItems <= 0) {
-                System.out.println("Number of items should be more than 0.");
+                System.out.println("Number of items should be greater than 0.");
             } else {
                 for (int i = 0; i < numberOfItems; i++) {
                     System.out.print("Enter the name of item #" + (i + 1) + " : ");
@@ -36,6 +36,12 @@ public class PocketExpenditureUsingHashmap {
                     System.out.print("Enter the price of " + keyItem + " : ");
                     Integer valuePrice = sc.nextInt();
                     sc.nextLine();
+                    while (valuePrice <= 0) {
+                        System.out.println("Price cannot be 0 or negative.");
+                        System.out.print("Again enter the price of " + keyItem + " : ");
+                        valuePrice = sc.nextInt();
+                        sc.nextLine();
+                    }
                     expenditure.put(keyItem, valuePrice);
                 }
 
