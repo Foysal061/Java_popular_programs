@@ -34,8 +34,8 @@ used if-else, for/while, array and string to solve these problems.
 ##### Solution: https://github.com/Foysal061/Java_popular_programs/blob/string-manipulation/src/java_string_manipulatioin/ShortFormOfWord.java
 
 ### 5. Write a program that will count how many vowels in the given string:
-Input: "roadtosdet"
-Output: 4
+    Input: "roadtosdet"
+    Output: 4
 ##### Solution: https://github.com/Foysal061/Java_popular_programs/blob/string-manipulation/src/java_string_manipulatioin/NumberOfVowels.java
 
 ### 6. Replace "R" from Rahim with "F" from the given String:
